@@ -40,3 +40,15 @@ class SportCar(Car):
     
     def __str__(self):
         return f'Car: {self.mark}, {self.klass}, {self.weight}, {self.speed}, {Driver}, {Engine}'
+
+
+
+car = Car(mark = input("Enter a car's mark: "), 
+        klass = input("Enter a car's klass: "),
+        weight = int(input("Enter a car's weight: ")))
+              
+lorry = Lorry(carrying = int(input("Enter a car's carrying: ")))
+
+sportcar = SportCar(speed = int(input("Enter a car's speed: ")))
+
+

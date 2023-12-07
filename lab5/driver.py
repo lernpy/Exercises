@@ -13,10 +13,18 @@ class Driver:
 
 class Person(Driver):
 
-    def __init__(self, age: int, fullname: str):
+    def __init__(self, age: int):
         self.age = age
-        self.fullname = self.lastname + " " + self.firstname
+        
       
     def __str__(self):
-        return f'Driver: {self.fullname}, {self.age}'
-    
+        return f'Driver: {self.age}'
+
+
+
+john = Driver(firstname = input("Enter a driver's name: "), 
+              lastname = input("Enter a driver's surname "),
+              experience = int(input("Enter a driver's experience : ")))
+              
+john = Person(age = int(input("Enter a driver's age : ")))
+

@@ -7,3 +7,10 @@ class Engine:
    
     def __str__(self):
         return f'Engine: {self.power}, {self.company}'
+    
+
+
+engine = Engine(power = int(input("Enter an engine's power: ")), 
+              company = input("Enter an engine's company: "))
+              
+              
