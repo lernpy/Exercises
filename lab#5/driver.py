@@ -8,7 +8,7 @@ class Driver:
         self.experience = experience
 
     def __str__(self):
-        return f'Driver: {self.firstname} {self.lastname}, {self.experience}'
+        print (f'Driver: {self.firstname} {self.lastname}, {self.experience}')
     
 
 class Person(Driver):
@@ -18,7 +18,7 @@ class Person(Driver):
         
       
     def __str__(self):
-        return f'Driver: {self.age}'
+        print (f'Driver: {self.age}')
 
 
 

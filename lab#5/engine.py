@@ -6,7 +6,7 @@ class Engine:
 
    
     def __str__(self):
-        return f'Engine: {self.power}, {self.company}'
+        print (f'Engine: {self.power}, {self.company}')
     
 
 
